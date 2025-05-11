@@ -1,21 +1,21 @@
-__pycache__/
-*.py[cod]
-
-.env
+venv/
 .venv/
-*.env
-*.venv
+*.py[cod]
+__pycache__/
 
-.vs/
-
+# IDE и OS
 .vscode/
 .idea/
+.vs/
 *.code-workspace
-
-
 .DS_Store
 Thumbs.db
 
+# env
+.env
+*.env
+
+# Исключаем содержимое, но оставляем папки
 data_raw/*
 !data_raw/.gitkeep
 
@@ -25,4 +25,5 @@ data_processed/*
 analysis/figures/*
 !analysis/figures/.gitkeep
 
+# Автоматический отчет
 analysis/report.md
